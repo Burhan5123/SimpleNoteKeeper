@@ -18,8 +18,8 @@
         
         <form method="post" action="note">
             
-            Title: <input type="text" name="title"><br>
-            Contents: <input type="text" name="content"><br>
+            Title: <input type="text" name="title" value="note.title"><br>
+            Contents: <textarea name="content" value="note.content"><br>
             
             <input type="submit" value="Save">
                        

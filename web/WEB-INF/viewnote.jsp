@@ -16,12 +16,12 @@
         
         <h1>View Note</h1>
         
-        Title:
+        Title: ${note.title}
         
-        Contents:
+        Contents: ${note.content}
         
         
-        <a href="note"> edit </a>
+        <a href="note?edit"> edit </a>
             
     </body>
 </html>
