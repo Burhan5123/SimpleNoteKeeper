@@ -61,8 +61,14 @@ public class NoteServlet extends HttpServlet {
         pw.println(title);
         pw.println(content);
         
+        pw.close();
         
-        
+        Note note = new Note(title, content);
+        request.setAttribute("note", note);
+
+        getServletContext().getRequestDispatcher("/WEB-INF/viewnote.jsp")
+                .forward(request, response);
+
         
     }
 }

@@ -9,15 +9,15 @@ import java.io.Serializable;
 public class Note implements Serializable{
     
     private String title;
-    private String note;
+    private String content;
 
     public Note() {
         
     }
 
-    public Note(String title, String note) {
+    public Note(String title, String content) {
         this.title = title;
-        this.note = note;
+        this.content = content;
     }
 
     public String getTitle() {
@@ -28,12 +28,12 @@ public class Note implements Serializable{
         this.title = title;
     }
 
-    public String getNote() {
-        return note;
+    public String getContent() {
+        return content;
     }
 
-    public void setNote(String note) {
-        this.note = note;
+    public void setContent(String content) {
+        this.content = content;
     }
     
     

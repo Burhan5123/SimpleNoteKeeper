@@ -16,9 +16,9 @@
         
         <h1>View Note</h1>
         
-        Title: ${note.title}
+        <p> Title: ${note.title}</p>
         
-        Contents: ${note.content}
+        <p>Contents: ${note.content} </p>
         
         
         <a href="note?edit"> edit </a>
